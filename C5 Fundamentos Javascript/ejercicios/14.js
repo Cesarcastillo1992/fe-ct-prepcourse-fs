@@ -3,6 +3,15 @@ function tienenMismaLongitud(str1, str2) {
   // Retorna true si los dos strings tienen la misma longitud.
   // De lo contrario, retorna false.
   // Tu código:
+  var longitud_str1 = str1.length;
+  var longitud_str2 = str2.length;
+  if (longitud_str1 === longitud_str2) {
+    return true;
+  } else {
+    return false;
+  }
 }
+var resultado = tienenMismaLongitud("hola", "aloh");
+console.log(resultado);
 
 module.exports = tienenMismaLongitud;
