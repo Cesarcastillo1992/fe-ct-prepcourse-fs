@@ -11,7 +11,7 @@ function tienenMismaLongitud(str1, str2) {
     return false;
   }
 }
-var resultado = tienenMismaLongitud("hola", "aloh");
-console.log(resultado);
+tienenMismaLongitud("hola", "aloh");
+
 
 module.exports = tienenMismaLongitud;

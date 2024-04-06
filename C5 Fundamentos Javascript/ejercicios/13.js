@@ -10,7 +10,5 @@ function sonIguales(x, y) {
   }
 }
 
-var resultado = sonIguales(17, 17);
-console.log(resultado);
-
+sonIguales(17, 17);
 module.exports = sonIguales;

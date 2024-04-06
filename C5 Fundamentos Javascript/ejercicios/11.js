@@ -16,7 +16,7 @@ function esMayorDeEdad(fechaNacimiento) {
     return false;
   } 
 }
-var resultado = esMayorDeEdad("2007-01-01");
-console.log(resultado);
+esMayorDeEdad("2007-01-01");
+
 
 module.exports = esMayorDeEdad;

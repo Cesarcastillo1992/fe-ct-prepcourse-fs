@@ -3,7 +3,6 @@ function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y".
   // Tu código:
   var resto= x % y;
-  //console.log(resto);
   return resto;
 }
 obtenerResto(10, 2)

@@ -9,6 +9,6 @@ function esNuloOIndefinido(valor) {
     return false;
   }
 }
-var resultado = esNuloOIndefinido(undefined);
-console.log(resultado)
+esNuloOIndefinido(undefined);
+
 module.exports = esNuloOIndefinido;

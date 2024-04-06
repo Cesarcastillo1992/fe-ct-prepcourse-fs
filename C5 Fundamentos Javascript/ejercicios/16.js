@@ -8,7 +8,5 @@ function mayorQueCincuenta(num) {
     return false
   }
 }
-var resultado = mayorQueCincuenta(51);
-console.log(resultado);
-
+mayorQueCincuenta(51);
 module.exports = mayorQueCincuenta;

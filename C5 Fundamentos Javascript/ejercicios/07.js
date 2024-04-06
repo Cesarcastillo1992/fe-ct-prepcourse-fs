@@ -5,6 +5,6 @@ function esTipoDato(valor) {
   // Tu código:
   return typeof valor;
 }
-var tipo= esTipoDato({});
-console.log(tipo);
+esTipoDato({});
+
 module.exports = esTipoDato;

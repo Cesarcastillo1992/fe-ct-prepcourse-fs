@@ -5,7 +5,7 @@ function resta(x, y) {
   var sustraccion = x - y;
   return sustraccion;
 }
-var resultado = resta(1.5, 5);
-console.log(resultado)
+resta(1.5, 5);
+
 
 module.exports = resta;

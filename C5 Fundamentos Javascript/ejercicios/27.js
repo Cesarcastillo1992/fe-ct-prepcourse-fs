@@ -3,7 +3,6 @@ function combinarNombres(nombre, apellido) {
   // Ejemplo: ("Soy", "Henry") ---> "Soy Henry"
   // Tu código:
   var nomcompleto = nombre + ' ' + apellido;
-  //console.log(nomcompleto);
   return nomcompleto;
 }
 combinarNombres("Cesar", "Castillo");

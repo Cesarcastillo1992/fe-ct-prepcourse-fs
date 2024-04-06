@@ -14,7 +14,7 @@ function esVocal(letra) {
   }
 }
 
-var resultado =esVocal("A");
-console.log(resultado);
+esVocal("A");
+
 
 module.exports = esVocal;

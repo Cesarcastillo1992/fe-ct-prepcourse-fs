@@ -4,7 +4,6 @@ function deEuroAdolar(euro) {
   // Tu código:
   var valor =  1.20;
   var convertir = euro * valor;
-  //console.log(convertir);
   return convertir;
 }
 deEuroAdolar(10);

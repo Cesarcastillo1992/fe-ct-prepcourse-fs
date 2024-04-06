@@ -8,7 +8,5 @@ function esImpar(num) {
     return false;
   }
 }
-var resultado = esImpar(2);
-console.log(resultado)
-
+esImpar(2);
 module.exports = esImpar;

@@ -10,6 +10,5 @@ function esNumeroEntero(numero) {
   }
 
 }
-var resultado = esNumeroEntero(1.1);
-console.log(resultado)
+esNumeroEntero(1.1);
 module.exports = esNumeroEntero;

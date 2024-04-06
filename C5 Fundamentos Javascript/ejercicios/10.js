@@ -6,8 +6,8 @@ function esFechaValida(fecha) {
   // Si es así, retorna true, sino retorna false.
   // Tu código:
 }
-var fechaValida = esFechaValida("enero")
-console.log(fechaValida);
+esFechaValida("enero")
+
 module.exports = esFechaValida;
 
 

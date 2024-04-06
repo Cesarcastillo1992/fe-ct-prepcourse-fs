@@ -3,8 +3,7 @@ function retornarPerimetro(lado) {
    // Debes retornar su perímetro.
    // Tu código:
    var perimetro = lado * 4;
-   console.log(perimetro);
-   return perimetro
+   return perimetro;
 }
 retornarPerimetro(25);
 

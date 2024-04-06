@@ -2,5 +2,4 @@
 // Reemplaza el valor de null por el correspondiente.
 
 const nuevoString = "Variable";
-console.log(nuevoString)
 module.exports = nuevoString;

@@ -8,6 +8,5 @@ function menosQueNoventa(num) {
     return false;
   }
 }
-var resultado = menosQueNoventa(100)
-console.log(resultado)
+menosQueNoventa(100)
 module.exports = menosQueNoventa;

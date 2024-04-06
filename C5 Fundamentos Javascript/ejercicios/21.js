@@ -6,7 +6,7 @@ function suma(x, y) {
   return adicion;
 }
 
-resultado = suma(10, 2);
-console.log(resultado)
+suma(10, 2);
+
 
 module.exports = suma;

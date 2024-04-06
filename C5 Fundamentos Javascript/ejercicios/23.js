@@ -3,7 +3,6 @@ function multiplica(x, y) {
   // Retorna el resultado de su multiplicación.
   // Tu código:
   var producto= x * y;
-  //console.log(producto);
   return producto;
 }
 multiplica(10, 3)

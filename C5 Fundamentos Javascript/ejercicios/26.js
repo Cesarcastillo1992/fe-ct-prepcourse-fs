@@ -3,7 +3,6 @@ function agregarSimboloExclamacion(str) {
   // Ejemplo: "hello world" ---> "hello world!"
   // Tu código:
   var agrega = str + '!';
-  //console.log(agrega)
   return agrega;
 }
 agregarSimboloExclamacion("hello world");

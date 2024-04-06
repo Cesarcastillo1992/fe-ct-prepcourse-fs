@@ -4,7 +4,5 @@ function devolverString(string) {
   // Tu código:
   return string
 }
-var resultado = devolverString("Hola mundo")
-console.log(resultado)
-
+devolverString("Hola mundo")
 module.exports = devolverString;

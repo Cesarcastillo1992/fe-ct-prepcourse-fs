@@ -3,7 +3,6 @@ function obtenerSaludo(nombre) {
   // Ejemplo: "Martin" ---> "Hola Martin!"
   // Tu código:
   var saludo = 'Hola ' + nombre;
-  //console.log(saludo); 
   return saludo;
 }
 

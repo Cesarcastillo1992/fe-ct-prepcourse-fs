@@ -14,8 +14,8 @@ function esPositivo(num) {
   }
 }
 
-var resultado = esPositivo(1);
-console.log(resultado);
+esPositivo(1);
+
 
 
 module.exports = esPositivo;

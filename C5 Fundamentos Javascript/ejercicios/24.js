@@ -3,7 +3,6 @@ function divide(x, y) {
   // Retorna el resultado de su división.
   // Tu código:
   var division= x / y;
-  //console.log(division);
   return division;
 }
 divide(50, 5)

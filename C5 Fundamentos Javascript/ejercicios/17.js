@@ -8,7 +8,6 @@ function esPar(num) {
     return false
   }
 }
-var resultado = esPar(50);
-console.log(resultado);
+esPar(50);
 
 module.exports = esPar;
