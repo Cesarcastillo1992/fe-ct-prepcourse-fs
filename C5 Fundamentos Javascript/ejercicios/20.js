@@ -4,7 +4,6 @@ function esVocal(letra) {
   // Si no es vocal, tambien debe retornar "Dato incorrecto".
   // Tu código:
   var letraLongitud = letra.length;
-  var letraMin = letra.toLowerCase()
   if (letraMin == "a" || letraMin == "e" ||letraMin == "i" ||letraMin == "o" ||letraMin == "u"){
     return ("Es vocal");
   } else if (letraLongitud > 1){
