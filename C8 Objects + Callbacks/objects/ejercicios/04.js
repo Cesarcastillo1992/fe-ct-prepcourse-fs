@@ -3,6 +3,19 @@ function verificarPropiedad(objeto, propiedad) {
    // Retorna true si la tiene, sino retorna false.
    // PISTA: puedes usar el método hasOwnProperty().
    // Tu código:
+   if (objeto.hasOwnProperty(propiedad)) {
+      return true;
+   } else {
+      return false;
+   }
 }
+
+var familiar = {
+   tio: 'Carlos',
+   hermano: 'Luis',
+   primo: 'Esteban'
+}
+
+console.log(verificarPropiedad(familiar, 'sobrino'))
 
 module.exports = verificarPropiedad;

@@ -6,5 +6,11 @@ const obtenerValorPropiedad = (objeto, propiedad) => {
 
    return a;
 };
+const persona = {
+   nombre: 'Juan',
+   edad: 30,
+   ciudad: 'Madrid'
+};
+console.log(obtenerValorPropiedad(persona, 'nombre'))
 
 module.exports = obtenerValorPropiedad;

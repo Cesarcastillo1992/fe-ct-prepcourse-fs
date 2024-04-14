@@ -4,13 +4,4 @@ function invocarMetodo(objeto, metodo) {
   // NOTA: no necesitas retornar nada.
   // Tu código:
   objeto[metodo]();
-  
 }
-
-const persona = {
-  saludar: function() {
-    console.log('¡Hola!');
-  }
-};
-console.log(invocarMetodo(persona, 'saludar'));
-module.exports = invocarMetodo;

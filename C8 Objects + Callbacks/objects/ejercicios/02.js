@@ -5,5 +5,11 @@ function actualizarValorPropiedad(objeto, propiedad, valor) {
    objeto[propiedad] = valor;
    return objeto;
 }
+var animal = {
+   nombre: 'leon',
+   especie: 'salvaje',
+   numeroDePatas: 4
+};
+console.log(actualizarValorPropiedad(animal, 'nombre', 'zorro')); 
 
 module.exports = actualizarValorPropiedad;
